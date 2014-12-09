@@ -1,5 +1,7 @@
 JsLint check-in policy for VS 2013 and TFS 2012. 
 
+Download: https://visualstudiogallery.msdn.microsoft.com/30f1d813-0da8-4f00-9ac2-9cb81ba3ab5a
+
 Made using SharpLinter project: https://github.com/jamietre/SharpLinter
 
 ## Summary
