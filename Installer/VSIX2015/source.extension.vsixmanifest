@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="JSLint.CheckinPolicy.Baidaly.609f508d-9af7-44d7-b709-5e5f859dff50" Version="2.0" Language="en-US" Publisher="Daulet Urazalinov" />
+    <DisplayName>JSLint Check-in Policy 2015</DisplayName>
+    <Description xml:space="preserve">JSLint Checkin Policy for Visual Studio 2015.
+
+This policy allows you to enforce JavaScript code quality at checkin time using famous JSLint.</Description>
+    <MoreInfo>https://github.com/Baidaly/JsLintPolicy</MoreInfo>
+    <License>licence.txt</License>
+    <Icon>logo.png</Icon>
+    <Tags>JavaScript, JSLint, JSHint, Checkin, Policy, TFS</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0,15.0)" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="policies.pkgdef" />
+  </Assets>
+</PackageManifest>

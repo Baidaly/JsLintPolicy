@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsLintPolicy", "JsLintPolicy\JsLintPolicy.csproj", "{F1885544-9CB4-4D67-82E4-56DB4F0EA1B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4F59EE71-75E9-44B4-BCFC-FB00F7339944}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Team Foundation", "Team Foundation", "{6721B650-FA98-4FA1-A8E3-3C12BEB6A2DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2015", "2015", "{D785D2A0-1483-4ACA-9876-338AFC827798}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\TeamFoundation\2015\Microsoft.TeamFoundation.VersionControl.Client.dll = Solution Items\TeamFoundation\2015\Microsoft.TeamFoundation.VersionControl.Client.dll
+		Solution Items\TeamFoundation\2015\Microsoft.TeamFoundation.WorkItemTracking.Client.dll = Solution Items\TeamFoundation\2015\Microsoft.TeamFoundation.WorkItemTracking.Client.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSIX2015", "Installer\VSIX2015\VSIX2015.csproj", "{E2200FFE-CF24-41B0-BF4F-08C38C5D7175}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1885544-9CB4-4D67-82E4-56DB4F0EA1B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1885544-9CB4-4D67-82E4-56DB4F0EA1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1885544-9CB4-4D67-82E4-56DB4F0EA1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1885544-9CB4-4D67-82E4-56DB4F0EA1B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2200FFE-CF24-41B0-BF4F-08C38C5D7175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2200FFE-CF24-41B0-BF4F-08C38C5D7175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2200FFE-CF24-41B0-BF4F-08C38C5D7175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2200FFE-CF24-41B0-BF4F-08C38C5D7175}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6721B650-FA98-4FA1-A8E3-3C12BEB6A2DB} = {4F59EE71-75E9-44B4-BCFC-FB00F7339944}
+		{D785D2A0-1483-4ACA-9876-338AFC827798} = {6721B650-FA98-4FA1-A8E3-3C12BEB6A2DB}
+	EndGlobalSection
+EndGlobal

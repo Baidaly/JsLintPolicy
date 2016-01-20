@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsLintPolicy", "JsLintPolicy\JsLintPolicy.csproj", "{F1885544-9CB4-4D67-82E4-56DB4F0EA1B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSIX2013", "Installer\VSIX2013\VSIX2013.csproj", "{BC139167-F322-46E0-963E-EB52B80EAD4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7FAA711F-A418-4FED-9CAA-73F8C0B8CDBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Team Foundation", "Team Foundation", "{4D3D9B4D-B147-48F2-9591-09B77F14BF54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2013", "2013", "{22C3E7BF-7FEE-454A-942D-89B157297561}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\TeamFoundation\2013\Microsoft.TeamFoundation.VersionControl.Client.dll = Solution Items\TeamFoundation\2013\Microsoft.TeamFoundation.VersionControl.Client.dll
+		Solution Items\TeamFoundation\2013\Microsoft.TeamFoundation.WorkItemTracking.Client.dll = Solution Items\TeamFoundation\2013\Microsoft.TeamFoundation.WorkItemTracking.Client.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1885544-9CB4-4D67-82E4-56DB4F0EA1B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1885544-9CB4-4D67-82E4-56DB4F0EA1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1885544-9CB4-4D67-82E4-56DB4F0EA1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1885544-9CB4-4D67-82E4-56DB4F0EA1B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC139167-F322-46E0-963E-EB52B80EAD4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC139167-F322-46E0-963E-EB52B80EAD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC139167-F322-46E0-963E-EB52B80EAD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC139167-F322-46E0-963E-EB52B80EAD4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D3D9B4D-B147-48F2-9591-09B77F14BF54} = {7FAA711F-A418-4FED-9CAA-73F8C0B8CDBF}
+		{22C3E7BF-7FEE-454A-942D-89B157297561} = {4D3D9B4D-B147-48F2-9591-09B77F14BF54}
+	EndGlobalSection
+EndGlobal
